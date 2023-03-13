@@ -1,0 +1,110 @@
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#calculator {
+    min-height: 75vh;
+    height: 120vh;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#container {
+    height: auto;
+    background-color: #111;
+    border: 20px solid rgb(0,0,0);
+    border-radius: 18px;
+    padding: 10px;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: minmax(40px, auto) repeat(5, 90px);
+    gap: 4px;
+    display: grid;
+}
+
+#display {
+    grid-column: 1 / -1;
+    background-color: #fff;
+    display: flex;
+    padding: 15px;
+    font-size: 6.5em;
+    font-weight: bold;
+    margin: 15px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+button {
+    margin: 2px;
+    border-radius: 15%;
+    font-weight: initial;
+    font-size: 2.5em;
+    font-family: monospace;
+    color: rgb(0,0,0);
+}
+
+/* Calculator Element Coloring */
+.clear {
+    background-color: rgb(0, 255, 255); 
+}
+
+.clear:active {
+    background-color: rgb(186, 250, 255); 
+}
+
+.percent {
+    background-color: rgb(0, 255, 255); 
+}
+
+.percent:active {
+    background-color: rgb(186, 250, 255); 
+}
+
+.sign {
+    background-color: rgb(0, 255, 255); 
+}
+
+.sign:active {
+    background-color: rgb(186, 250, 255); 
+}
+
+.operand {
+    background-color: rgb(0, 255, 0); 
+}
+
+.operand:active {
+    background-color: rgb(181, 255, 191); 
+}
+
+.operator {
+    background-color: rgb(229, 255, 0);    
+}
+
+.operator:focus {
+    background-color: rgb(248, 255, 181); 
+}
+
+.equals {
+    background-color: rgb(229, 255, 0);  
+}
+
+.equals:active {
+    background-color: rgb(248, 255, 181); 
+}
+
+.decimal {
+    background-color: rgb(0, 255, 0); 
+}
+
+.decimal:active {
+    background-color: rgb(181, 255, 191); 
+}
+
+#zero {
+    grid-column: span 2;
+}
