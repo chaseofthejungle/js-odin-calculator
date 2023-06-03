@@ -41,6 +41,7 @@
 button {
     margin: 2px;
     border-radius: 15%;
+    border-color: rgb(189, 183, 107);
     cursor: pointer;
     font-size: 2.5em;
     font-family: monospace;
