@@ -2,7 +2,7 @@
 
 **Description:** This is a simple calculator program, created for The Odin Project web foundations course.
 
-**Live Demo:** http://chaseofthejungle.github.io/js-odin-calculator/Calculator
+**Live Demo:** http://chaseofthejungle.github.io/js-odin-calculator/app  
   
 **Preview:**  
   
