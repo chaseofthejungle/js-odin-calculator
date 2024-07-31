@@ -1,6 +1,6 @@
-# Odin Project Calculator
+# JS Odin Calculator
 
-**Description:** This is a simple calculator program, created for The Odin Project web foundations course.
+**Description:** This is a simple calculator program, created as a JavaScript exercise for The Odin Project web foundations course.
 
 **Live Demo:** http://chaseofthejungle.github.io/js-odin-calculator/app  
   
