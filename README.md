@@ -1,6 +1,6 @@
 # JS Odin Calculator
 
-**Description:** This is a simple calculator program, created as a JavaScript exercise for The Odin Project web foundations course.
+**Description:** This app is a simple calculator program, created as a JavaScript exercise for The Odin Project web foundations course. It is functionally and (somewhat) visually similar to the Calculator program distributed with macOS.
 
 **Live Demo:** http://chaseofthejungle.github.io/js-odin-calculator/app  
   
